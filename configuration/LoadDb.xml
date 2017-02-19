@@ -1,0 +1,153 @@
+<body>
+	<maker name="Audi">
+		<model name="A4">
+			<generation name="2.">
+				<from>2001</from>
+				<to>2005</to>
+				<path>D:/Skola/UK/DiplomovaPraca/PokracovaniePoPredchodcovi/Database/TrainingDb/Audi/A4/A4_1</path>
+			</generation>
+			<generation name="3.">
+				<from>2005</from>
+				<to>2008</to>
+				<path>D:/Skola/UK/DiplomovaPraca/PokracovaniePoPredchodcovi/Database/TrainingDb/Audi/A4/A4_2</path>
+			</generation>
+			<generation name="4.">
+				<from>2008</from>
+				<to>2012</to>
+				<path>D:/Skola/UK/DiplomovaPraca/PokracovaniePoPredchodcovi/Database/TrainingDb/Audi/A4/A4_3</path>
+			</generation>
+			<generation name="5.">
+				<from>2012</from>
+				<to>2016</to>
+				<path>D:/Skola/UK/DiplomovaPraca/PokracovaniePoPredchodcovi/Database/TrainingDb/Audi/A4/A4_4</path>
+			</generation>
+			<generation name="6.">
+				<from>2016</from>
+				<to>2017</to>
+				<path>D:/Skola/UK/DiplomovaPraca/PokracovaniePoPredchodcovi/Database/TrainingDb/Audi/A4/A4_5</path>
+			</generation>
+		</model>
+	</maker>
+	<maker name="BMW">
+		<model name="Rad_5">
+			<generation name="E60-E61">
+				<from>2003</from>
+				<to>2010</to>
+				<path>D:/Skola/UK/DiplomovaPraca/PokracovaniePoPredchodcovi/Database/TrainingDb/BMW/Rad_5/Rad_5_1</path>
+			</generation>
+			<generation name="F10-F11">
+				<from>2010</from>
+				<to>2017</to>
+				<path>D:/Skola/UK/DiplomovaPraca/PokracovaniePoPredchodcovi/Database/TrainingDb/BMW/Rad_5/Rad_5_2</path>
+			</generation>
+		</model>
+	</maker>
+	<maker name="Skoda">
+		<model name="Fabia">
+			<generation name="1.">
+				<from>1999</from>
+				<to>2007</to>
+				<path>D:/Skola/UK/DiplomovaPraca/PokracovaniePoPredchodcovi/Database/TrainingDb/Skoda/Fabia/Fabia1</path>
+			</generation>
+			<generation name="2.">
+				<from>2007</from>
+				<to>2010</to>
+				<path>D:/Skola/UK/DiplomovaPraca/PokracovaniePoPredchodcovi/Database/TrainingDb/Skoda/Fabia/Fabia2</path>
+			</generation>
+			<generation name="3.">
+				<from>2010</from>
+				<to>2014</to>
+				<info>Facelif</info>
+				<path>D:/Skola/UK/DiplomovaPraca/PokracovaniePoPredchodcovi/Database/TrainingDb/Skoda/Fabia/Fabia3</path>
+			</generation>
+			<generation name="4.">
+				<from>2014</from>
+				<to>2017</to>
+				<path>D:/Skola/UK/DiplomovaPraca/PokracovaniePoPredchodcovi/Database/TrainingDb/Skoda/Fabia/Fabia4</path>
+			</generation>
+		</model>
+		<model name="Octavia">
+			<generation name="1.">
+				<from>1996</from>
+				<to>2004</to>
+				<info>od 2004 do 2010 ako verzia TOUR</info>
+				<path>D:/Skola/UK/DiplomovaPraca/PokracovaniePoPredchodcovi/Database/TrainingDb/Skoda/Octavia/Octavia1</path>
+			</generation>
+			<generation name="2.">
+				<from>2004</from>
+				<to>2013</to>
+				<path>D:/Skola/UK/DiplomovaPraca/PokracovaniePoPredchodcovi/Database/TrainingDb/Skoda/Octavia/Octavia2</path>
+			</generation>
+			<generation name="3.">
+				<from>2008</from>
+				<to>2013</to>
+				<info>Facelif</info>
+				<path>D:/Skola/UK/DiplomovaPraca/PokracovaniePoPredchodcovi/Database/TrainingDb/Skoda/Octavia/Octavia3</path>
+			</generation>
+			<generation name="4.">
+				<from>2013</from>
+				<to>2017</to>
+				<path>D:/Skola/UK/DiplomovaPraca/PokracovaniePoPredchodcovi/Database/TrainingDb/Skoda/Octavia/Octavia4</path>
+			</generation>
+		</model>
+		<model name="Superb">
+			<generation name="1.">
+				<from>2002</from>
+				<to>2008</to>
+				<path>D:/Skola/UK/DiplomovaPraca/PokracovaniePoPredchodcovi/Database/TrainingDb/Skoda/Superb/Superb1</path>
+			</generation>
+			<generation name="2.">
+				<from>2008</from>
+				<to>2013</to>
+				<path>D:/Skola/UK/DiplomovaPraca/PokracovaniePoPredchodcovi/Database/TrainingDb/Skoda/Superb/Superb2</path>
+			</generation>
+			<generation name="3.">
+				<from>2013</from>
+				<to>2017</to>
+				<info>Facelif</info>
+				<path>D:/Skola/UK/DiplomovaPraca/PokracovaniePoPredchodcovi/Database/TrainingDb/Skoda/Superb/Superb3</path>
+			</generation>
+		</model>
+	</maker>
+	<maker name="Volkswagen">
+		<model name="Golf">
+			<generation name="4.">
+				<from>1997</from>
+				<to>2003</to>
+				<path>D:/Skola/UK/DiplomovaPraca/PokracovaniePoPredchodcovi/Database/TrainingDb/Volkswagen/Golf/Golf1</path>
+			</generation>
+			<generation name="5.-6.">
+				<from>2003</from>
+				<to>2012</to>
+				<path>D:/Skola/UK/DiplomovaPraca/PokracovaniePoPredchodcovi/Database/TrainingDb/Volkswagen/Golf/Golf2</path>
+			</generation>
+			<generation name="7.">
+				<from>2012</from>
+				<to>2017</to>
+				<path>D:/Skola/UK/DiplomovaPraca/PokracovaniePoPredchodcovi/Database/TrainingDb/Volkswagen/Golf/Golf3</path>
+			</generation>
+		</model>
+		<model name="Passat">
+			<generation name="1.">
+				<from>1997</from>
+				<to>2000</to>
+				<path>D:/Skola/UK/DiplomovaPraca/PokracovaniePoPredchodcovi/Database/TrainingDb/Volkswagen/Passat/Passat1</path>
+			</generation>
+			<generation name="2.">
+				<from>2000</from>
+				<to>2005</to>
+				<path>D:/Skola/UK/DiplomovaPraca/PokracovaniePoPredchodcovi/Database/TrainingDb/Volkswagen/Passat/Passat2</path>
+			</generation>
+			<generation name="3.">
+				<from>2005</from>
+				<to>2011</to>
+				<path>D:/Skola/UK/DiplomovaPraca/PokracovaniePoPredchodcovi/Database/TrainingDb/Volkswagen/Passat/Passat3</path>
+			</generation>
+			<generation name="4.">
+				<from>2011</from>
+				<to>2017</to>
+				<path>D:/Skola/UK/DiplomovaPraca/PokracovaniePoPredchodcovi/Database/TrainingDb/Volkswagen/Passat/Passat4</path>
+			</generation>
+		</model>
+	</maker>
+</body>
