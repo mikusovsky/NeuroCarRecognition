@@ -6,6 +6,10 @@ def init():
     global CV_LOAD_IMAGE_GRAY # set flag to 0 to give a grayscale one
     CV_LOAD_IMAGE_GRAY = 0
 
+    global DBPaths
+    class DBPaths(object):
+        trainingDB = "D:/Skola/UK/DiplomovaPraca/PokracovaniePoPredchodcovi/zdrojové kódy/NeuroCarRecognition/configuration/LoadDb.xml"
+
     global DB_DIRECOTRY
     DB_DIRECOTRY = "D:/Skola/UK/DiplomovaPraca/TensorFlow/resnet/"
 

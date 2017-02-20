@@ -1,5 +1,7 @@
 import os
 from xml.dom import minidom
+from PIL import Image
+import numpy as np
 
 class CarModel:
     _maker = None
@@ -9,6 +11,9 @@ class CarModel:
     _to = None
     _imagePath = None
     _imagesPath = None
+    _indexFrom = 0
+    _indexFrom = 0
+    _kMeanLabel = None
 
     def __init__(self, maker=None, model=None, generation=None, dateFrom=None, dateTo=None, imagePath=None):
         self._maker = maker
@@ -46,6 +51,31 @@ class CarModel:
 
     def imagesPath(self):
         return self._imagesPath
+
+    def getImages(self):
+        images = []
+        for imgPath in self._imagesPath:
+            img = Image.open(imgPath).resize((299, 299))
+            img = np.array(img)
+            img = 2 * (img / 255.0) - 1.0
+            img = img.reshape(-1, 299, 299, 3)
+            images.append(img)
+        return images
+
+    def indexFrom(self, value=None):
+        if value is None:
+            return self._indexFrom
+        self._indexFrom = value
+
+    def indexTo(self, value=None):
+        if value is None:
+            return self._indexTo
+        self._indexTo = value
+
+    def kMeanLabel(self, value):
+        if value is None:
+            return self._kMeanLabel
+        self._kMeanLabel = value
 
 def get_all_models(configFile):
     allModels = []
