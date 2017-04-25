@@ -2,15 +2,190 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a4266f2b-01ef-4778-8736-acd8bee390c6" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Classificator.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Neuronka.py" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resnet_v1.py" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CreateNumpyFromDb.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Main2.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MyAlexNet.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Utils.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/VGG_Example.py" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/models/slim/slim_walkthough.ipynb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/models/syntaxnet/beam_search_training.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/models/syntaxnet/ff_nn_schematic.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/models/syntaxnet/looping-parser.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/models/syntaxnet/sawman.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/models/syntaxnet/universal.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/models/tutorials/rnn/linear.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/models/tutorials/rnn/rnn.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/models/tutorials/rnn/rnn_cell.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/models/tutorials/rnn/seq2seq.py" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DbLoader/dbLoader.py" afterPath="$PROJECT_DIR$/DbLoader/dbLoader.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Deffinitions.py" afterPath="$PROJECT_DIR$/Deffinitions.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Main.py" afterPath="$PROJECT_DIR$/Main.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Neuronka.py" afterPath="$PROJECT_DIR$/Neuronka.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/configuration/LoadDb.xml" afterPath="$PROJECT_DIR$/configuration/LoadDb.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/README.md" afterPath="$PROJECT_DIR$/models/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/autoencoder/autoencoder_models/Autoencoder.py" afterPath="$PROJECT_DIR$/models/autoencoder/autoencoder_models/Autoencoder.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/autoencoder/autoencoder_models/DenoisingAutoencoder.py" afterPath="$PROJECT_DIR$/models/autoencoder/autoencoder_models/DenoisingAutoencoder.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/autoencoder/autoencoder_models/VariationalAutoencoder.py" afterPath="$PROJECT_DIR$/models/autoencoder/autoencoder_models/VariationalAutoencoder.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/compression/encoder.py" afterPath="$PROJECT_DIR$/models/compression/encoder.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/differential_privacy/dp_sgd/dp_mnist/dp_mnist.py" afterPath="$PROJECT_DIR$/models/differential_privacy/dp_sgd/dp_mnist/dp_mnist.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/differential_privacy/dp_sgd/dp_optimizer/dp_pca.py" afterPath="$PROJECT_DIR$/models/differential_privacy/dp_sgd/dp_optimizer/dp_pca.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/differential_privacy/dp_sgd/dp_optimizer/utils.py" afterPath="$PROJECT_DIR$/models/differential_privacy/dp_sgd/dp_optimizer/utils.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/differential_privacy/dp_sgd/per_example_gradients/per_example_gradients.py" afterPath="$PROJECT_DIR$/models/differential_privacy/dp_sgd/per_example_gradients/per_example_gradients.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/differential_privacy/multiple_teachers/analysis.py" afterPath="$PROJECT_DIR$/models/differential_privacy/multiple_teachers/analysis.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/differential_privacy/multiple_teachers/deep_cnn.py" afterPath="$PROJECT_DIR$/models/differential_privacy/multiple_teachers/deep_cnn.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/differential_privacy/privacy_accountant/tf/accountant.py" afterPath="$PROJECT_DIR$/models/differential_privacy/privacy_accountant/tf/accountant.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/im2txt/README.md" afterPath="$PROJECT_DIR$/models/im2txt/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/im2txt/im2txt/data/build_mscoco_data.py" afterPath="$PROJECT_DIR$/models/im2txt/im2txt/data/build_mscoco_data.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/im2txt/im2txt/evaluate.py" afterPath="$PROJECT_DIR$/models/im2txt/im2txt/evaluate.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/im2txt/im2txt/run_inference.py" afterPath="$PROJECT_DIR$/models/im2txt/im2txt/run_inference.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/im2txt/im2txt/show_and_tell_model.py" afterPath="$PROJECT_DIR$/models/im2txt/im2txt/show_and_tell_model.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/inception/README.md" afterPath="$PROJECT_DIR$/models/inception/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/inception/inception/data/process_bounding_boxes.py" afterPath="$PROJECT_DIR$/models/inception/inception/data/process_bounding_boxes.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/inception/inception/image_processing.py" afterPath="$PROJECT_DIR$/models/inception/inception/image_processing.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/inception/inception/inception_distributed_train.py" afterPath="$PROJECT_DIR$/models/inception/inception/inception_distributed_train.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/inception/inception/inception_eval.py" afterPath="$PROJECT_DIR$/models/inception/inception/inception_eval.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/inception/inception/inception_model.py" afterPath="$PROJECT_DIR$/models/inception/inception/inception_model.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/inception/inception/inception_train.py" afterPath="$PROJECT_DIR$/models/inception/inception/inception_train.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/inception/inception/slim/README.md" afterPath="$PROJECT_DIR$/models/inception/inception/slim/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/inception/inception/slim/inception_model.py" afterPath="$PROJECT_DIR$/models/inception/inception/slim/inception_model.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/inception/inception/slim/inception_test.py" afterPath="$PROJECT_DIR$/models/inception/inception/slim/inception_test.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/inception/inception/slim/ops.py" afterPath="$PROJECT_DIR$/models/inception/inception/slim/ops.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/inception/inception/slim/ops_test.py" afterPath="$PROJECT_DIR$/models/inception/inception/slim/ops_test.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/inception/inception/slim/variables.py" afterPath="$PROJECT_DIR$/models/inception/inception/slim/variables.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/namignizer/data_utils.py" afterPath="$PROJECT_DIR$/models/namignizer/data_utils.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/namignizer/model.py" afterPath="$PROJECT_DIR$/models/namignizer/model.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/namignizer/names.py" afterPath="$PROJECT_DIR$/models/namignizer/names.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/neural_gpu/neural_gpu.py" afterPath="$PROJECT_DIR$/models/neural_gpu/neural_gpu.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/neural_gpu/neural_gpu_trainer.py" afterPath="$PROJECT_DIR$/models/neural_gpu/neural_gpu_trainer.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/neural_gpu/wmt_utils.py" afterPath="$PROJECT_DIR$/models/neural_gpu/wmt_utils.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/neural_programmer/data_utils.py" afterPath="$PROJECT_DIR$/models/neural_programmer/data_utils.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/neural_programmer/model.py" afterPath="$PROJECT_DIR$/models/neural_programmer/model.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/next_frame_prediction/cross_conv/model.py" afterPath="$PROJECT_DIR$/models/next_frame_prediction/cross_conv/model.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/next_frame_prediction/cross_conv/reader.py" afterPath="$PROJECT_DIR$/models/next_frame_prediction/cross_conv/reader.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/real_nvp/real_nvp_multiscale_dataset.py" afterPath="$PROJECT_DIR$/models/real_nvp/real_nvp_multiscale_dataset.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/real_nvp/real_nvp_utils.py" afterPath="$PROJECT_DIR$/models/real_nvp/real_nvp_utils.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/resnet/README.md" afterPath="$PROJECT_DIR$/models/resnet/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/resnet/resnet_main.py" afterPath="$PROJECT_DIR$/models/resnet/resnet_main.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/resnet/resnet_model.py" afterPath="$PROJECT_DIR$/models/resnet/resnet_model.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/slim/README.md" afterPath="$PROJECT_DIR$/models/slim/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/slim/datasets/cifar10.py" afterPath="$PROJECT_DIR$/models/slim/datasets/cifar10.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/slim/datasets/download_and_convert_mnist.py" afterPath="$PROJECT_DIR$/models/slim/datasets/download_and_convert_mnist.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/slim/datasets/mnist.py" afterPath="$PROJECT_DIR$/models/slim/datasets/mnist.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/slim/deployment/model_deploy.py" afterPath="$PROJECT_DIR$/models/slim/deployment/model_deploy.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/slim/deployment/model_deploy_test.py" afterPath="$PROJECT_DIR$/models/slim/deployment/model_deploy_test.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/slim/eval_image_classifier.py" afterPath="$PROJECT_DIR$/models/slim/eval_image_classifier.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/slim/nets/alexnet.py" afterPath="$PROJECT_DIR$/models/slim/nets/alexnet.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/slim/nets/alexnet_test.py" afterPath="$PROJECT_DIR$/models/slim/nets/alexnet_test.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/slim/nets/cifarnet.py" afterPath="$PROJECT_DIR$/models/slim/nets/cifarnet.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/slim/nets/inception_resnet_v2.py" afterPath="$PROJECT_DIR$/models/slim/nets/inception_resnet_v2.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/slim/nets/inception_resnet_v2_test.py" afterPath="$PROJECT_DIR$/models/slim/nets/inception_resnet_v2_test.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/slim/nets/inception_v1.py" afterPath="$PROJECT_DIR$/models/slim/nets/inception_v1.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/slim/nets/inception_v1_test.py" afterPath="$PROJECT_DIR$/models/slim/nets/inception_v1_test.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/slim/nets/inception_v2.py" afterPath="$PROJECT_DIR$/models/slim/nets/inception_v2.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/slim/nets/inception_v2_test.py" afterPath="$PROJECT_DIR$/models/slim/nets/inception_v2_test.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/slim/nets/inception_v3.py" afterPath="$PROJECT_DIR$/models/slim/nets/inception_v3.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/slim/nets/inception_v3_test.py" afterPath="$PROJECT_DIR$/models/slim/nets/inception_v3_test.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/slim/nets/inception_v4.py" afterPath="$PROJECT_DIR$/models/slim/nets/inception_v4.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/slim/nets/inception_v4_test.py" afterPath="$PROJECT_DIR$/models/slim/nets/inception_v4_test.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/slim/nets/overfeat.py" afterPath="$PROJECT_DIR$/models/slim/nets/overfeat.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/slim/nets/overfeat_test.py" afterPath="$PROJECT_DIR$/models/slim/nets/overfeat_test.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/slim/nets/resnet_v1.py" afterPath="$PROJECT_DIR$/models/slim/nets/resnet_v1.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/slim/nets/resnet_v1_test.py" afterPath="$PROJECT_DIR$/models/slim/nets/resnet_v1_test.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/slim/nets/resnet_v2.py" afterPath="$PROJECT_DIR$/models/slim/nets/resnet_v2.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/slim/nets/resnet_v2_test.py" afterPath="$PROJECT_DIR$/models/slim/nets/resnet_v2_test.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/slim/nets/vgg.py" afterPath="$PROJECT_DIR$/models/slim/nets/vgg.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/slim/nets/vgg_test.py" afterPath="$PROJECT_DIR$/models/slim/nets/vgg_test.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/slim/preprocessing/cifarnet_preprocessing.py" afterPath="$PROJECT_DIR$/models/slim/preprocessing/cifarnet_preprocessing.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/slim/preprocessing/inception_preprocessing.py" afterPath="$PROJECT_DIR$/models/slim/preprocessing/inception_preprocessing.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/slim/preprocessing/lenet_preprocessing.py" afterPath="$PROJECT_DIR$/models/slim/preprocessing/lenet_preprocessing.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/slim/preprocessing/preprocessing_factory.py" afterPath="$PROJECT_DIR$/models/slim/preprocessing/preprocessing_factory.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/slim/preprocessing/vgg_preprocessing.py" afterPath="$PROJECT_DIR$/models/slim/preprocessing/vgg_preprocessing.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/slim/train_image_classifier.py" afterPath="$PROJECT_DIR$/models/slim/train_image_classifier.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/street/python/nn_ops.py" afterPath="$PROJECT_DIR$/models/street/python/nn_ops.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/street/python/vgsl_input.py" afterPath="$PROJECT_DIR$/models/street/python/vgsl_input.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/street/python/vgsl_model.py" afterPath="$PROJECT_DIR$/models/street/python/vgsl_model.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/street/python/vgsl_model_test.py" afterPath="$PROJECT_DIR$/models/street/python/vgsl_model_test.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/street/python/vgslspecs.py" afterPath="$PROJECT_DIR$/models/street/python/vgslspecs.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/street/python/vgslspecs_test.py" afterPath="$PROJECT_DIR$/models/street/python/vgslspecs_test.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/swivel/fastprep.cc" afterPath="$PROJECT_DIR$/models/swivel/fastprep.cc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/swivel/fastprep.mk" afterPath="$PROJECT_DIR$/models/swivel/fastprep.mk" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/swivel/swivel.py" afterPath="$PROJECT_DIR$/models/swivel/swivel.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/syntaxnet/Dockerfile" afterPath="$PROJECT_DIR$/models/syntaxnet/Dockerfile" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/syntaxnet/README.md" afterPath="$PROJECT_DIR$/models/syntaxnet/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/syntaxnet/WORKSPACE" afterPath="$PROJECT_DIR$/models/syntaxnet/WORKSPACE" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/syntaxnet/syntaxnet/BUILD" afterPath="$PROJECT_DIR$/models/syntaxnet/syntaxnet/BUILD" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/syntaxnet/syntaxnet/affix.h" afterPath="$PROJECT_DIR$/models/syntaxnet/syntaxnet/affix.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/syntaxnet/syntaxnet/arc_standard_transitions.cc" afterPath="$PROJECT_DIR$/models/syntaxnet/syntaxnet/arc_standard_transitions.cc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/syntaxnet/syntaxnet/arc_standard_transitions_test.cc" afterPath="$PROJECT_DIR$/models/syntaxnet/syntaxnet/arc_standard_transitions_test.cc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/syntaxnet/syntaxnet/base.h" afterPath="$PROJECT_DIR$/models/syntaxnet/syntaxnet/base.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/syntaxnet/syntaxnet/beam_reader_ops.cc" afterPath="$PROJECT_DIR$/models/syntaxnet/syntaxnet/beam_reader_ops.cc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/syntaxnet/syntaxnet/beam_reader_ops_test.py" afterPath="$PROJECT_DIR$/models/syntaxnet/syntaxnet/beam_reader_ops_test.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/syntaxnet/syntaxnet/binary_segment_transitions.cc" afterPath="$PROJECT_DIR$/models/syntaxnet/syntaxnet/binary_segment_transitions.cc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/syntaxnet/syntaxnet/binary_segment_transitions_test.cc" afterPath="$PROJECT_DIR$/models/syntaxnet/syntaxnet/binary_segment_transitions_test.cc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/syntaxnet/syntaxnet/document_filters.cc" afterPath="$PROJECT_DIR$/models/syntaxnet/syntaxnet/document_filters.cc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/syntaxnet/syntaxnet/document_format.h" afterPath="$PROJECT_DIR$/models/syntaxnet/syntaxnet/document_format.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/syntaxnet/syntaxnet/embedding_feature_extractor.cc" afterPath="$PROJECT_DIR$/models/syntaxnet/syntaxnet/embedding_feature_extractor.cc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/syntaxnet/syntaxnet/embedding_feature_extractor.h" afterPath="$PROJECT_DIR$/models/syntaxnet/syntaxnet/embedding_feature_extractor.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/syntaxnet/syntaxnet/feature_extractor.cc" afterPath="$PROJECT_DIR$/models/syntaxnet/syntaxnet/feature_extractor.cc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/syntaxnet/syntaxnet/feature_extractor.h" afterPath="$PROJECT_DIR$/models/syntaxnet/syntaxnet/feature_extractor.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/syntaxnet/syntaxnet/fml_parser.h" afterPath="$PROJECT_DIR$/models/syntaxnet/syntaxnet/fml_parser.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/syntaxnet/syntaxnet/graph_builder.py" afterPath="$PROJECT_DIR$/models/syntaxnet/syntaxnet/graph_builder.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/syntaxnet/syntaxnet/graph_builder_test.py" afterPath="$PROJECT_DIR$/models/syntaxnet/syntaxnet/graph_builder_test.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/syntaxnet/syntaxnet/lexicon_builder.cc" afterPath="$PROJECT_DIR$/models/syntaxnet/syntaxnet/lexicon_builder.cc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/syntaxnet/syntaxnet/lexicon_builder_test.py" afterPath="$PROJECT_DIR$/models/syntaxnet/syntaxnet/lexicon_builder_test.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/syntaxnet/syntaxnet/load_parser_ops.py" afterPath="$PROJECT_DIR$/models/syntaxnet/syntaxnet/load_parser_ops.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/syntaxnet/syntaxnet/morphology_label_set.h" afterPath="$PROJECT_DIR$/models/syntaxnet/syntaxnet/morphology_label_set.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/syntaxnet/syntaxnet/ops/parser_ops.cc" afterPath="$PROJECT_DIR$/models/syntaxnet/syntaxnet/ops/parser_ops.cc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/syntaxnet/syntaxnet/parser_eval.py" afterPath="$PROJECT_DIR$/models/syntaxnet/syntaxnet/parser_eval.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/syntaxnet/syntaxnet/parser_features.cc" afterPath="$PROJECT_DIR$/models/syntaxnet/syntaxnet/parser_features.cc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/syntaxnet/syntaxnet/parser_features_test.cc" afterPath="$PROJECT_DIR$/models/syntaxnet/syntaxnet/parser_features_test.cc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/syntaxnet/syntaxnet/parser_state.cc" afterPath="$PROJECT_DIR$/models/syntaxnet/syntaxnet/parser_state.cc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/syntaxnet/syntaxnet/parser_state.h" afterPath="$PROJECT_DIR$/models/syntaxnet/syntaxnet/parser_state.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/syntaxnet/syntaxnet/parser_trainer.py" afterPath="$PROJECT_DIR$/models/syntaxnet/syntaxnet/parser_trainer.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/syntaxnet/syntaxnet/parser_transitions.cc" afterPath="$PROJECT_DIR$/models/syntaxnet/syntaxnet/parser_transitions.cc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/syntaxnet/syntaxnet/parser_transitions.h" afterPath="$PROJECT_DIR$/models/syntaxnet/syntaxnet/parser_transitions.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/syntaxnet/syntaxnet/populate_test_inputs.cc" afterPath="$PROJECT_DIR$/models/syntaxnet/syntaxnet/populate_test_inputs.cc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/syntaxnet/syntaxnet/proto_io.h" afterPath="$PROJECT_DIR$/models/syntaxnet/syntaxnet/proto_io.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/syntaxnet/syntaxnet/reader_ops.cc" afterPath="$PROJECT_DIR$/models/syntaxnet/syntaxnet/reader_ops.cc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/syntaxnet/syntaxnet/reader_ops_test.py" afterPath="$PROJECT_DIR$/models/syntaxnet/syntaxnet/reader_ops_test.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/syntaxnet/syntaxnet/segmenter_utils.cc" afterPath="$PROJECT_DIR$/models/syntaxnet/syntaxnet/segmenter_utils.cc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/syntaxnet/syntaxnet/segmenter_utils.h" afterPath="$PROJECT_DIR$/models/syntaxnet/syntaxnet/segmenter_utils.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/syntaxnet/syntaxnet/segmenter_utils_test.cc" afterPath="$PROJECT_DIR$/models/syntaxnet/syntaxnet/segmenter_utils_test.cc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/syntaxnet/syntaxnet/sentence_batch.h" afterPath="$PROJECT_DIR$/models/syntaxnet/syntaxnet/sentence_batch.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/syntaxnet/syntaxnet/sentence_features.cc" afterPath="$PROJECT_DIR$/models/syntaxnet/syntaxnet/sentence_features.cc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/syntaxnet/syntaxnet/sentence_features.h" afterPath="$PROJECT_DIR$/models/syntaxnet/syntaxnet/sentence_features.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/syntaxnet/syntaxnet/sentence_features_test.cc" afterPath="$PROJECT_DIR$/models/syntaxnet/syntaxnet/sentence_features_test.cc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/syntaxnet/syntaxnet/structured_graph_builder.py" afterPath="$PROJECT_DIR$/models/syntaxnet/syntaxnet/structured_graph_builder.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/syntaxnet/syntaxnet/syntaxnet.bzl" afterPath="$PROJECT_DIR$/models/syntaxnet/syntaxnet/syntaxnet.bzl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/syntaxnet/syntaxnet/tagger_transitions.cc" afterPath="$PROJECT_DIR$/models/syntaxnet/syntaxnet/tagger_transitions.cc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/syntaxnet/syntaxnet/tagger_transitions_test.cc" afterPath="$PROJECT_DIR$/models/syntaxnet/syntaxnet/tagger_transitions_test.cc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/syntaxnet/syntaxnet/term_frequency_map.cc" afterPath="$PROJECT_DIR$/models/syntaxnet/syntaxnet/term_frequency_map.cc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/syntaxnet/syntaxnet/term_frequency_map.h" afterPath="$PROJECT_DIR$/models/syntaxnet/syntaxnet/term_frequency_map.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/syntaxnet/syntaxnet/testdata/context.pbtxt" afterPath="$PROJECT_DIR$/models/syntaxnet/syntaxnet/testdata/context.pbtxt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/syntaxnet/syntaxnet/text_formats.cc" afterPath="$PROJECT_DIR$/models/syntaxnet/syntaxnet/text_formats.cc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/syntaxnet/syntaxnet/text_formats_test.py" afterPath="$PROJECT_DIR$/models/syntaxnet/syntaxnet/text_formats_test.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/syntaxnet/syntaxnet/unpack_sparse_features.cc" afterPath="$PROJECT_DIR$/models/syntaxnet/syntaxnet/unpack_sparse_features.cc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/syntaxnet/syntaxnet/utils.h" afterPath="$PROJECT_DIR$/models/syntaxnet/syntaxnet/utils.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/syntaxnet/tools/bazel.rc" afterPath="$PROJECT_DIR$/models/syntaxnet/tools/bazel.rc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/textsum/seq2seq_attention.py" afterPath="$PROJECT_DIR$/models/textsum/seq2seq_attention.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/textsum/seq2seq_attention_model.py" afterPath="$PROJECT_DIR$/models/textsum/seq2seq_attention_model.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/textsum/seq2seq_lib.py" afterPath="$PROJECT_DIR$/models/textsum/seq2seq_lib.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/transformer/cluttered_mnist.py" afterPath="$PROJECT_DIR$/models/transformer/cluttered_mnist.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/transformer/example.py" afterPath="$PROJECT_DIR$/models/transformer/example.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/transformer/spatial_transformer.py" afterPath="$PROJECT_DIR$/models/transformer/spatial_transformer.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/tutorials/embedding/README.md" afterPath="$PROJECT_DIR$/models/tutorials/embedding/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/tutorials/embedding/word2vec.py" afterPath="$PROJECT_DIR$/models/tutorials/embedding/word2vec.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/tutorials/image/cifar10/cifar10.py" afterPath="$PROJECT_DIR$/models/tutorials/image/cifar10/cifar10.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/tutorials/image/cifar10/cifar10_input.py" afterPath="$PROJECT_DIR$/models/tutorials/image/cifar10/cifar10_input.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/tutorials/image/cifar10/cifar10_multi_gpu_train.py" afterPath="$PROJECT_DIR$/models/tutorials/image/cifar10/cifar10_multi_gpu_train.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/tutorials/image/cifar10/cifar10_train.py" afterPath="$PROJECT_DIR$/models/tutorials/image/cifar10/cifar10_train.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/tutorials/rnn/ptb/ptb_word_lm.py" afterPath="$PROJECT_DIR$/models/tutorials/rnn/ptb/ptb_word_lm.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/tutorials/rnn/translate/seq2seq_model.py" afterPath="$PROJECT_DIR$/models/tutorials/rnn/translate/seq2seq_model.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/video_prediction/lstm_ops.py" afterPath="$PROJECT_DIR$/models/video_prediction/lstm_ops.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/video_prediction/prediction_input.py" afterPath="$PROJECT_DIR$/models/video_prediction/prediction_input.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/video_prediction/prediction_model.py" afterPath="$PROJECT_DIR$/models/video_prediction/prediction_model.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/video_prediction/prediction_train.py" afterPath="$PROJECT_DIR$/models/video_prediction/prediction_train.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -21,10 +196,16 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/Tenzor$test.coverage" NAME="test Coverage Results" MODIFIED="1487189843090" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/imgaug" />
+    <SUITE FILE_PATH="coverage/NeuroCarRecognition$VGG_Example.coverage" NAME="VGG_Example Coverage Results" MODIFIED="1489508562522" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/NeuroCarRecognition$CreateNumpyFromDb.coverage" NAME="CreateNumpyFromDb Coverage Results" MODIFIED="1490053031156" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Tenzor$eval_image_classifier.coverage" NAME="eval_image_classifier Coverage Results" MODIFIED="1487430597778" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/models/slim" />
     <SUITE FILE_PATH="coverage/Tenzor$Augument.coverage" NAME="Augument Coverage Results" MODIFIED="1487189368355" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/imgaug" />
     <SUITE FILE_PATH="coverage/Tenzor$Main.coverage" NAME="Main Coverage Results" MODIFIED="1487501511170" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/NeuroCarRecognition$Main.coverage" NAME="Main Coverage Results" MODIFIED="1487627014843" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/NeuroCarRecognition$cifar10_eval.coverage" NAME="cifar10_eval Coverage Results" MODIFIED="1489675828800" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/models/tutorials/image/cifar10" />
+    <SUITE FILE_PATH="coverage/NeuroCarRecognition$Main.coverage" NAME="Main Coverage Results" MODIFIED="1489673648563" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/NeuroCarRecognition$MyAlexNet.coverage" NAME="MyAlexNet Coverage Results" MODIFIED="1489522609654" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/NeuroCarRecognition$example.coverage" NAME="example Coverage Results" MODIFIED="1489678336711" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/Desktop" />
+    <SUITE FILE_PATH="coverage/NeuroCarRecognition$Main2.coverage" NAME="Main2 Coverage Results" MODIFIED="1489843675983" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Tenzor$test__1_.coverage" NAME="test (1) Coverage Results" MODIFIED="1487190244981" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Augumentaiton" />
   </component>
   <component name="CreatePatchCommitExecutor">
@@ -33,33 +214,87 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Main.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Main2.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Main2.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="6" column="34" lean-forward="false" selection-start-line="6" selection-start-column="34" selection-end-line="7" selection-end-column="18" />
+              <folding>
+                <element signature="e#0#23#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CreateNumpyFromDb.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CreateNumpyFromDb.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="7" column="53" lean-forward="false" selection-start-line="7" selection-start-column="53" selection-end-line="7" selection-end-column="53" />
+              <folding>
+                <element signature="e#0#29#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Deffinitions.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Deffinitions.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="17" column="136" lean-forward="false" selection-start-line="17" selection-start-column="123" selection-end-line="17" selection-end-column="136" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="__init__.py" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python35/Lib/site-packages/tensorflow/contrib/layers/__init__.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1581">
+              <caret line="101" column="40" lean-forward="false" selection-start-line="101" selection-start-column="21" selection-end-line="101" selection-end-column="40" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="nn_ops.py" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python35/Lib/site-packages/tensorflow/python/ops/nn_ops.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="25806">
+              <caret line="1537" column="4" lean-forward="false" selection-start-line="1537" selection-start-column="4" selection-end-line="1537" selection-end-column="4" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="loss_ops.py" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python35/Lib/site-packages/tensorflow/contrib/losses/python/losses/loss_ops.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="6273">
+              <caret line="379" column="0" lean-forward="false" selection-start-line="379" selection-start-column="0" selection-end-line="379" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Main.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="115">
-              <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="46" selection-end-column="3" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Neuronka.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Neuronka.py">
-          <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="357">
-              <caret line="21" column="27" lean-forward="false" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="27" />
+              <caret line="21" column="21" lean-forward="false" selection-start-line="21" selection-start-column="21" selection-end-line="21" selection-end-column="21" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Classificator.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Classificator.py">
+      <file leaf-file-name="Utils.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Utils.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="18" column="31" lean-forward="false" selection-start-line="18" selection-start-column="31" selection-end-line="18" selection-end-column="31" />
+            <state relative-caret-position="51">
+              <caret line="3" column="4" lean-forward="false" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
               <folding>
-                <element signature="e#0#9#0" expanded="true" />
+                <element signature="e#0#18#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -68,8 +303,8 @@
       <file leaf-file-name="dbLoader.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/DbLoader/dbLoader.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="57" column="55" lean-forward="false" selection-start-line="57" selection-start-column="55" selection-end-line="57" selection-end-column="55" />
+            <state relative-caret-position="901">
+              <caret line="58" column="16" lean-forward="false" selection-start-line="58" selection-start-column="16" selection-end-line="58" selection-end-column="16" />
               <folding>
                 <element signature="e#0#9#0" expanded="true" />
               </folding>
@@ -77,47 +312,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Augument.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Augumentaiton/Augument.py">
+      <file leaf-file-name="Neuronka.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Neuronka.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="23" column="30" lean-forward="false" selection-start-line="23" selection-start-column="10" selection-end-line="23" selection-end-column="30" />
-              <folding>
-                <element signature="e#0#19#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="kernix.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/kernix.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="17" lean-forward="false" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
+            <state relative-caret-position="1411">
+              <caret line="83" column="69" lean-forward="false" selection-start-line="83" selection-start-column="53" selection-end-line="83" selection-end-column="69" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Deffinitions.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Deffinitions.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="18" lean-forward="false" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="18" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="eval_image_classifier.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/models/slim/eval_image_classifier.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2924">
-              <caret line="181" column="18" lean-forward="false" selection-start-line="181" selection-start-column="18" selection-end-line="181" selection-end-column="18" />
-              <folding>
-                <element signature="e#764#802#0" expanded="true" />
-                <marker date="1487431949644" expanded="true" signature="764:769" ph="import ..." />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -133,31 +333,36 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>nump</find>
-      <find>resize</find>
-      <find>noise</find>
-      <find>restore</find>
-      <find>tf</find>
-      <find>preprocessing_factory</find>
-      <find>get_preprocessing</find>
-      <find>eval_image_classifier</find>
-      <find>dataset_factory</find>
-      <find>from datasets import</find>
-      <find>import d</find>
-      <find>model_name</find>
-      <find>master</find>
-      <find>split name</find>
-      <find>100</find>
-      <find>deff</find>
-      <find>indexFrom</find>
-      <find>args</find>
-      <find>groupby</find>
-      <find>import</find>
-      <find>arg_</find>
-      <find>logits</find>
-      <find>end_points</find>
-      <find>_input_tensor</find>
       <find>input_tensor</find>
+      <find>arg</find>
+      <find>inputs</find>
+      <find>resnet_v1_50</find>
+      <find>end_points</find>
+      <find>six</find>
+      <find>checkpoints_dir</find>
+      <find>names</find>
+      <find>classes</find>
+      <find>Mixed_6a</find>
+      <find>class</find>
+      <find>global_variables_initializer</find>
+      <find>conv2d</find>
+      <find>vgg16</find>
+      <find>is_training</find>
+      <find>dropoutdropout</find>
+      <find>train</find>
+      <find>alexnet</find>
+      <find>vgg</find>
+      <find>_input_tensor</find>
+      <find>tensor</find>
+      <find>vgg_16</find>
+      <find>sess</find>
+      <find>labels</find>
+      <find>_optimizer</find>
+      <find>optimize_loss</find>
+      <find>summaries=</find>
+      <find>optimi</find>
+      <find>int</find>
+      <find>placeholder</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -181,7 +386,6 @@
         <option value="$PROJECT_DIR$/models/slim/datasets/download_and_convert_cifar10.py" />
         <option value="$PROJECT_DIR$/models/slim/datasets/download_and_convert_flowers.py" />
         <option value="$PROJECT_DIR$/models/slim/datasets/flowers.py" />
-        <option value="$PROJECT_DIR$/models/slim/datasets/imagenet.py" />
         <option value="$PROJECT_DIR$/models/slim/datasets/mnist.py" />
         <option value="$PROJECT_DIR$/models/slim/download_and_convert_data.py" />
         <option value="$PROJECT_DIR$/models/slim/train_image_classifier.py" />
@@ -190,14 +394,26 @@
         <option value="$PROJECT_DIR$/models/slim/eval_image_classifier.py" />
         <option value="$PROJECT_DIR$/kernix.py" />
         <option value="$PROJECT_DIR$/Augumentaiton/Augument.py" />
-        <option value="$PROJECT_DIR$/Deffinitions.py" />
         <option value="$PROJECT_DIR$/models/slim/nets/resnet_v1.py" />
-        <option value="$PROJECT_DIR$/DbLoader/dbLoader.py" />
         <option value="$PROJECT_DIR$/Clasificator.py" />
         <option value="$PROJECT_DIR$/Nouronka.py" />
-        <option value="$PROJECT_DIR$/Main.py" />
-        <option value="$PROJECT_DIR$/Neuronka.py" />
         <option value="$PROJECT_DIR$/Classificator.py" />
+        <option value="$PROJECT_DIR$/models/slim/nets/inception_v1.py" />
+        <option value="$PROJECT_DIR$/models/VGG_Example.py" />
+        <option value="$PROJECT_DIR$/models/slim/datasets/imagenet.py" />
+        <option value="$PROJECT_DIR$/VGG_Example.py" />
+        <option value="$USER_HOME$/AppData/Local/Programs/Python/Python35/Lib/site-packages/tensorflow/models/image/alexnet/alexnet_benchmark.py" />
+        <option value="$PROJECT_DIR$/MyAlexNet.py" />
+        <option value="$PROJECT_DIR$/configuration/LoadDb.xml" />
+        <option value="$USER_HOME$/Desktop/example.py" />
+        <option value="$PROJECT_DIR$/Main.py" />
+        <option value="$PROJECT_DIR$/Deffinitions.py" />
+        <option value="$PROJECT_DIR$/Neuronka.py" />
+        <option value="$PROJECT_DIR$/models/slim/nets/alexnet.py" />
+        <option value="$PROJECT_DIR$/Main2.py" />
+        <option value="$PROJECT_DIR$/Utils.py" />
+        <option value="$PROJECT_DIR$/DbLoader/dbLoader.py" />
+        <option value="$PROJECT_DIR$/CreateNumpyFromDb.py" />
       </list>
     </option>
   </component>
@@ -229,6 +445,7 @@
     </navigator>
     <panes>
       <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -243,7 +460,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -252,7 +468,8 @@
     <property name="nodejs_interpreter_path" value="C:/Program Files (x86)/nodejs/node" />
     <property name="js.eslint.eslintPackage" value="" />
     <property name="js-jscs-nodeInterpreter" value="C:\Program Files (x86)\nodejs\node.exe" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/NeuroNumpy" />
+    <property name="SearchEverywhereHistoryKey" value="resnet_s&#9;null&#9;null" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -260,7 +477,7 @@
       <recent name="D:\Skola\UK\DiplomovaPraca\PokracovaniePoPredchodcovi\zdrojové kódy\Tenzor" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.Main">
+  <component name="RunManager" selected="Python.CreateNumpyFromDb">
     <configuration default="false" name="Main" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -279,74 +496,74 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
     </configuration>
-    <configuration default="false" name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration default="false" name="cifar10_eval" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/imgaug" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/models/tutorials/image/cifar10" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="Tenzor" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/imgaug/test.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/models/tutorials/image/cifar10/cifar10_eval.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
     </configuration>
-    <configuration default="false" name="Augument" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration default="false" name="example" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/imgaug" />
-      <option name="IS_MODULE_SDK" value="true" />
+      <option name="WORKING_DIRECTORY" value="$USER_HOME$/Desktop" />
+      <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="Tenzor" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/imgaug/Augument.py" />
+      <option name="SCRIPT_NAME" value="$USER_HOME$/Desktop/example.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
     </configuration>
-    <configuration default="false" name="test (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration default="false" name="Main2" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Augumentaiton" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="Tenzor" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Augumentaiton/test.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Main2.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
     </configuration>
-    <configuration default="false" name="eval_image_classifier" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration default="false" name="CreateNumpyFromDb" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/models/slim" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="Tenzor" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/models/slim/eval_image_classifier.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/CreateNumpyFromDb.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -567,23 +784,26 @@
     </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Python.Main" />
-      <item index="1" class="java.lang.String" itemvalue="Python.test" />
-      <item index="2" class="java.lang.String" itemvalue="Python.Augument" />
-      <item index="3" class="java.lang.String" itemvalue="Python.test (1)" />
-      <item index="4" class="java.lang.String" itemvalue="Python.eval_image_classifier" />
+      <item index="1" class="java.lang.String" itemvalue="Python.cifar10_eval" />
+      <item index="2" class="java.lang.String" itemvalue="Python.example" />
+      <item index="3" class="java.lang.String" itemvalue="Python.Main2" />
+      <item index="4" class="java.lang.String" itemvalue="Python.CreateNumpyFromDb" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.Main" />
-        <item index="1" class="java.lang.String" itemvalue="Python.eval_image_classifier" />
-        <item index="2" class="java.lang.String" itemvalue="Python.test (1)" />
-        <item index="3" class="java.lang.String" itemvalue="Python.test" />
-        <item index="4" class="java.lang.String" itemvalue="Python.Augument" />
+        <item index="0" class="java.lang.String" itemvalue="Python.CreateNumpyFromDb" />
+        <item index="1" class="java.lang.String" itemvalue="Python.Main2" />
+        <item index="2" class="java.lang.String" itemvalue="Python.example" />
+        <item index="3" class="java.lang.String" itemvalue="Python.cifar10_eval" />
+        <item index="4" class="java.lang.String" itemvalue="Python.Main" />
       </list>
     </recent_temporary>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -603,20 +823,20 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3326087" sideWeight="0.50208336" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3326087" sideWeight="0.49791667" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25434783" sideWeight="0.49791667" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934782" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32915717" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -627,368 +847,365 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="1" />
+      <option name="time" value="2" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Deffinitions.py">
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python35/Lib/site-packages/tensorflow/python/ops/array_ops.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="30" lean-forward="false" selection-start-line="1" selection-start-column="11" selection-end-line="1" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Augumentaiton/test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="11" lean-forward="false" selection-start-line="13" selection-start-column="11" selection-end-line="13" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="595">
-          <caret line="37" column="17" lean-forward="false" selection-start-line="37" selection-start-column="17" selection-end-line="37" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Augumentaiton/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Augumentaiton/Augument.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="36" column="37" lean-forward="false" selection-start-line="36" selection-start-column="37" selection-end-line="36" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Deffinitions.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="30" lean-forward="false" selection-start-line="1" selection-start-column="11" selection-end-line="1" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Augumentaiton/test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Deffinitions.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="30" lean-forward="false" selection-start-line="1" selection-start-column="11" selection-end-line="1" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Augumentaiton/test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15946">
-          <caret line="938" column="40" lean-forward="false" selection-start-line="938" selection-start-column="34" selection-end-line="938" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/imgaug/imgaug.py" />
-    <entry file="file://$PROJECT_DIR$/imgaug/parameters.py" />
-    <entry file="file://$PROJECT_DIR$/imgaug/augmenters.py" />
-    <entry file="file://$PROJECT_DIR$/Augumentaiton/test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="11" lean-forward="false" selection-start-line="13" selection-start-column="11" selection-end-line="13" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python35/Lib/site-packages/imgaug/augmenters.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-620">
-          <caret line="522" column="8" lean-forward="false" selection-start-line="522" selection-start-column="8" selection-end-line="522" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Augumentaiton/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="93">
+          <caret line="1548" column="28" lean-forward="false" selection-start-line="1548" selection-start-column="23" selection-end-line="1548" selection-end-column="28" />
         </state>
       </provider>
     </entry>
     <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python35/Lib/site-packages/tensorflow/python/training/saver.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="145">
-          <caret line="886" column="16" lean-forward="true" selection-start-line="886" selection-start-column="16" selection-end-line="886" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python35/Lib/site-packages/tensorflow/python/platform/flags.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="33" column="6" lean-forward="false" selection-start-line="33" selection-start-column="6" selection-end-line="33" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AnimalNet.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="11" lean-forward="false" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/models/slim/datasets/cifar10.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="27" column="25" lean-forward="false" selection-start-line="27" selection-start-column="25" selection-end-line="27" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/models/slim/datasets/dataset_factory.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="23" column="17" lean-forward="false" selection-start-line="23" selection-start-column="17" selection-end-line="23" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/models/slim/datasets/download_and_convert_mnist.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="254">
-          <caret line="28" column="11" lean-forward="true" selection-start-line="28" selection-start-column="11" selection-end-line="28" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/models/slim/datasets/download_and_convert_cifar10.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="169">
-          <caret line="36" column="0" lean-forward="true" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/models/slim/datasets/download_and_convert_flowers.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="169">
-          <caret line="35" column="0" lean-forward="true" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/models/slim/datasets/dataset_utils.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-357">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/models/slim/datasets/flowers.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="145">
-          <caret line="24" column="9" lean-forward="false" selection-start-line="24" selection-start-column="9" selection-end-line="24" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/models/slim/datasets/mnist.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="254">
-          <caret line="24" column="9" lean-forward="false" selection-start-line="24" selection-start-column="9" selection-end-line="24" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/models/slim/download_and_convert_data.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="305">
-          <caret line="40" column="17" lean-forward="false" selection-start-line="40" selection-start-column="17" selection-end-line="40" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/models/slim/nets/inception.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="232">
-          <caret line="21" column="28" lean-forward="false" selection-start-line="21" selection-start-column="28" selection-end-line="21" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/models/slim/train_image_classifier.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="26" column="17" lean-forward="false" selection-start-line="26" selection-start-column="17" selection-end-line="26" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/models/slim/preprocessing/preprocessing_factory.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="179">
-          <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/models/slim/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="213" column="128" lean-forward="false" selection-start-line="213" selection-start-column="128" selection-end-line="213" selection-end-column="128" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/kernix.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="17" lean-forward="false" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python35/Lib/site-packages/tensorflow/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="470">
-          <caret line="38" column="0" lean-forward="false" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/models/slim/datasets/imagenet.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="663">
-          <caret line="47" column="15" lean-forward="false" selection-start-line="47" selection-start-column="5" selection-end-line="47" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/models/slim/nets/inception_v2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3009">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Deffinitions.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="18" lean-forward="false" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Augumentaiton/Augument.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="23" column="30" lean-forward="false" selection-start-line="23" selection-start-column="10" selection-end-line="23" selection-end-column="30" />
-          <folding>
-            <element signature="e#0#19#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resnet_v1.py" />
-    <entry file="file://$PROJECT_DIR$/models/slim/eval_image_classifier.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2924">
-          <caret line="181" column="18" lean-forward="false" selection-start-line="181" selection-start-column="18" selection-end-line="181" selection-end-column="18" />
-          <folding>
-            <element signature="e#764#802#0" expanded="true" />
-            <marker date="1487431949644" expanded="true" signature="764:769" ph="import ..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/models/slim/nets/resnet_utils.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="40" column="23" lean-forward="true" selection-start-line="40" selection-start-column="23" selection-end-line="40" selection-end-column="23" />
+        <state relative-caret-position="184">
+          <caret line="999" column="0" lean-forward="false" selection-start-line="999" selection-start-column="0" selection-end-line="999" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/models/slim/nets/inception_v1.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="467">
-          <caret line="304" column="22" lean-forward="false" selection-start-line="304" selection-start-column="0" selection-end-line="304" selection-end-column="22" />
+        <state relative-caret-position="-1325">
+          <caret line="22" column="38" lean-forward="true" selection-start-line="22" selection-start-column="38" selection-end-line="22" selection-end-column="38" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python35/Lib/site-packages/tensorflow/python/ops/array_ops.py">
+    <entry file="file://$PROJECT_DIR$/models/slim/nets/resnet_utils.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="93">
-          <caret line="1548" column="28" lean-forward="false" selection-start-line="1548" selection-start-column="23" selection-end-line="1548" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/models/slim/nets/inception_resnet_v2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="93" column="4" lean-forward="false" selection-start-line="93" selection-start-column="4" selection-end-line="93" selection-end-column="4" />
-          <folding />
+        <state relative-caret-position="184">
+          <caret line="208" column="20" lean-forward="false" selection-start-line="208" selection-start-column="4" selection-end-line="208" selection-end-column="20" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/models/slim/nets/resnet_v1.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="114" column="20" lean-forward="false" selection-start-line="114" selection-start-column="14" selection-end-line="114" selection-end-column="20" />
-          <folding />
+        <state relative-caret-position="193">
+          <caret line="208" column="28" lean-forward="false" selection-start-line="208" selection-start-column="17" selection-end-line="208" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/VGG_Example.py" />
+    <entry file="file://$PROJECT_DIR$/models/slim/datasets/imagenet.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="784">
+          <caret line="37" column="0" lean-forward="true" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python35/Lib/site-packages/tensorflow/python/framework/ops.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="1127" column="0" lean-forward="false" selection-start-line="1127" selection-start-column="0" selection-end-line="1127" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python35/Lib/site-packages/tensorflow/python/ops/gen_image_ops.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-768">
+          <caret line="266" column="4" lean-forward="false" selection-start-line="266" selection-start-column="4" selection-end-line="266" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python35/Lib/site-packages/urllib3/connectionpool.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="851" column="0" lean-forward="false" selection-start-line="851" selection-start-column="0" selection-end-line="851" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python35/Lib/site-packages/tensorflow/python/ops/random_ops.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="68" column="35" lean-forward="true" selection-start-line="68" selection-start-column="35" selection-end-line="68" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python35/Lib/site-packages/tensorflow/models/image/alexnet/alexnet_benchmark.py" />
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python35/Lib/site-packages/numpy/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/slim/nets/alexnet_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1312">
+          <caret line="50" column="19" lean-forward="false" selection-start-line="50" selection-start-column="6" selection-end-line="50" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/slim/nets/inception_resnet_v2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1526">
+          <caret line="170" column="36" lean-forward="true" selection-start-line="170" selection-start-column="36" selection-end-line="170" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/slim/nets/inception_v2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="353" column="40" lean-forward="true" selection-start-line="353" selection-start-column="40" selection-end-line="353" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MyAlexNet.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="263" column="28" lean-forward="false" selection-start-line="263" selection-start-column="28" selection-end-line="263" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/configuration/LoadDb.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="8" column="12" lean-forward="true" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
         </state>
       </provider>
     </entry>
     <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python35/Lib/site-packages/PIL/Image.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="1538" column="0" lean-forward="false" selection-start-line="1538" selection-start-column="0" selection-end-line="1538" selection-end-column="0" />
+        <state relative-caret-position="83">
+          <caret line="2276" column="4" lean-forward="false" selection-start-line="2276" selection-start-column="4" selection-end-line="2276" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Classificator.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="53">
+          <caret line="21" column="23" lean-forward="false" selection-start-line="21" selection-start-column="16" selection-end-line="21" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python35/Lib/site-packages/tensorflow/python/framework/meta_graph.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="405" column="0" lean-forward="false" selection-start-line="405" selection-start-column="0" selection-end-line="405" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python35/Lib/site-packages/urllib3/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/tutorials/image/cifar10/cifar10.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="461">
+          <caret line="392" column="0" lean-forward="false" selection-start-line="392" selection-start-column="0" selection-end-line="392" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/VGG_Example.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1672">
+          <caret line="112" column="10" lean-forward="true" selection-start-line="112" selection-start-column="10" selection-end-line="112" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/example.py" />
+    <entry file="file://$PROJECT_DIR$/models/autoencoder/AdditiveGaussianNoiseAutoencoderRunner.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="185">
+          <caret line="20" column="39" lean-forward="false" selection-start-line="20" selection-start-column="39" selection-end-line="20" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python35/Lib/site-packages/theano/tensor/nnet/abstract_conv.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-42">
+          <caret line="694" column="8" lean-forward="false" selection-start-line="694" selection-start-column="8" selection-end-line="694" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/tutorials/image/cifar10/cifar10_eval.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python35/Lib/site-packages/tensorflow/python/training/input.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="14366">
+          <caret line="675" column="0" lean-forward="false" selection-start-line="675" selection-start-column="0" selection-end-line="675" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python35/Lib/site-packages/tensorflow/python/framework/tensor_util.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7854">
+          <caret line="367" column="0" lean-forward="false" selection-start-line="367" selection-start-column="0" selection-end-line="367" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python35/Lib/site-packages/tensorflow/contrib/slim/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="484">
+          <caret line="45" column="13" lean-forward="true" selection-start-line="45" selection-start-column="13" selection-end-line="45" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python35/Lib/site-packages/tensorflow/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="28" column="6" lean-forward="false" selection-start-line="28" selection-start-column="6" selection-end-line="28" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python35/Lib/site-packages/tensorflow/contrib/slim/python/slim/nets/alexnet.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2041">
+          <caret line="6" column="44" lean-forward="true" selection-start-line="6" selection-start-column="44" selection-end-line="6" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/slim/nets/vgg.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-70">
+          <caret line="129" column="24" lean-forward="false" selection-start-line="129" selection-start-column="18" selection-end-line="129" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python35/Lib/site-packages/tensorflow/contrib/framework/python/ops/arg_scope.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3784">
+          <caret line="176" column="0" lean-forward="false" selection-start-line="176" selection-start-column="0" selection-end-line="176" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python35/Lib/site-packages/tensorflow/contrib/layers/python/layers/layers.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18656">
+          <caret line="875" column="0" lean-forward="false" selection-start-line="875" selection-start-column="0" selection-end-line="875" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python35/Lib/site-packages/tensorflow/contrib/layers/python/layers/utils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5559">
+          <caret line="337" column="0" lean-forward="false" selection-start-line="337" selection-start-column="0" selection-end-line="337" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="21" lean-forward="false" selection-start-line="21" selection-start-column="21" selection-end-line="21" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python35/Lib/site-packages/tensorflow/contrib/losses/python/losses/loss_ops.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6273">
+          <caret line="379" column="0" lean-forward="false" selection-start-line="379" selection-start-column="0" selection-end-line="379" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/slim/nets/alexnet.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1373">
+          <caret line="86" column="2" lean-forward="false" selection-start-line="86" selection-start-column="2" selection-end-line="86" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python35/Lib/site-packages/tensorflow/python/ops/nn_ops.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25806">
+          <caret line="1537" column="4" lean-forward="false" selection-start-line="1537" selection-start-column="4" selection-end-line="1537" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/im2txt/im2txt/train.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="194">
+          <caret line="89" column="46" lean-forward="false" selection-start-line="89" selection-start-column="33" selection-end-line="89" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/im2txt/im2txt/ops/image_embedding.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-38">
+          <caret line="15" column="26" lean-forward="true" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/im2txt/im2txt/ops/inputs.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="194">
+          <caret line="128" column="41" lean-forward="false" selection-start-line="128" selection-start-column="31" selection-end-line="128" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python35/Lib/site-packages/tensorflow/contrib/layers/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1581">
+          <caret line="101" column="40" lean-forward="false" selection-start-line="101" selection-start-column="21" selection-end-line="101" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Neuronka.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1411">
+          <caret line="83" column="69" lean-forward="false" selection-start-line="83" selection-start-column="53" selection-end-line="83" selection-end-column="69" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Main2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="6" column="34" lean-forward="false" selection-start-line="6" selection-start-column="34" selection-end-line="7" selection-end-column="18" />
+          <folding>
+            <element signature="e#0#23#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Deffinitions.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="136" lean-forward="false" selection-start-line="17" selection-start-column="123" selection-end-line="17" selection-end-column="136" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/DbLoader/dbLoader.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="57" column="55" lean-forward="false" selection-start-line="57" selection-start-column="55" selection-end-line="57" selection-end-column="55" />
+        <state relative-caret-position="901">
+          <caret line="58" column="16" lean-forward="false" selection-start-line="58" selection-start-column="16" selection-end-line="58" selection-end-column="16" />
           <folding>
             <element signature="e#0#9#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Neuronka.py">
+    <entry file="file://$PROJECT_DIR$/CreateNumpyFromDb.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="27" lean-forward="false" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Classificator.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="31" lean-forward="false" selection-start-line="18" selection-start-column="31" selection-end-line="18" selection-end-column="31" />
+        <state relative-caret-position="68">
+          <caret line="7" column="53" lean-forward="false" selection-start-line="7" selection-start-column="53" selection-end-line="7" selection-end-column="53" />
           <folding>
-            <element signature="e#0#9#0" expanded="true" />
+            <element signature="e#0#29#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Main.py">
+    <entry file="file://$PROJECT_DIR$/Utils.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="46" selection-end-column="3" />
-          <folding />
+        <state relative-caret-position="51">
+          <caret line="3" column="4" lean-forward="false" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

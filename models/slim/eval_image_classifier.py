@@ -35,28 +35,28 @@ tf.app.flags.DEFINE_integer(
     'Max number of batches to evaluate by default use all.')
 
 tf.app.flags.DEFINE_string(
-    'master', 'D:/Skola/UK/DiplomovaPraca/PokracovaniePoPredchodcovi/zdrojové kódy/Tenzor/models/', 'The address of the TensorFlow master to use.')
+    'master', '', 'The address of the TensorFlow master to use.')
 
 tf.app.flags.DEFINE_string(
-    'checkpoint_path', 'D:/Skola/UK/DiplomovaPraca/TensorFlow/resnet/',
+    'checkpoint_path', '/tmp/tfmodel/',
     'The directory where the model was written to or an absolute path to a '
     'checkpoint file.')
 
 tf.app.flags.DEFINE_string(
-    'eval_dir', 'D:/Skola/UK/DiplomovaPraca/TensorFlow/resnet/output/', 'Directory where the results are saved to.')
+    'eval_dir', '/tmp/tfmodel/', 'Directory where the results are saved to.')
 
 tf.app.flags.DEFINE_integer(
-    'num_preprocessing_threads', 6,
+    'num_preprocessing_threads', 4,
     'The number of threads used to create the batches.')
 
 tf.app.flags.DEFINE_string(
     'dataset_name', 'imagenet', 'The name of the dataset to load.')
 
 tf.app.flags.DEFINE_string(
-    'dataset_split_name', 'validation', 'The name of the train/test split.')
+    'dataset_split_name', 'test', 'The name of the train/test split.')
 
 tf.app.flags.DEFINE_string(
-    'dataset_dir', "D:/Skola/UK/DiplomovaPraca/TensorFlow/resnet/", 'The directory where the dataset files are stored.')
+    'dataset_dir', None, 'The directory where the dataset files are stored.')
 
 tf.app.flags.DEFINE_integer(
     'labels_offset', 0,
@@ -153,14 +153,14 @@ def main(_):
     # Define the metrics:
     names_to_values, names_to_updates = slim.metrics.aggregate_metric_map({
         'Accuracy': slim.metrics.streaming_accuracy(predictions, labels),
-        'Recall@5': slim.metrics.streaming_recall_at_k(
+        'Recall_5': slim.metrics.streaming_recall_at_k(
             logits, labels, 5),
     })
 
     # Print the summaries to screen.
-    for name, value in names_to_values.items():
+    for name, value in names_to_values.iteritems():
       summary_name = 'eval/%s' % name
-      op = tf.scalar_summary(summary_name, value, collections=[])
+      op = tf.summary.scalar(summary_name, value, collections=[])
       op = tf.Print(op, [value], summary_name)
       tf.add_to_collection(tf.GraphKeys.SUMMARIES, op)
 
@@ -179,11 +179,11 @@ def main(_):
     tf.logging.info('Evaluating %s' % checkpoint_path)
 
     slim.evaluation.evaluate_once(
-        master='',#FLAGS.master,
+        master=FLAGS.master,
         checkpoint_path=checkpoint_path,
         logdir=FLAGS.eval_dir,
         num_evals=num_batches,
-        eval_op=names_to_updates.values(),
+        eval_op=list(names_to_updates.values()),
         variables_to_restore=variables_to_restore)
 
 

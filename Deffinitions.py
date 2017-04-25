@@ -6,9 +6,21 @@ def init():
     global CV_LOAD_IMAGE_GRAY # set flag to 0 to give a grayscale one
     CV_LOAD_IMAGE_GRAY = 0
 
+    global CheckPointPath
+    class CheckPointPath:
+        directory = 'D:/Skola/UK/DiplomovaPraca/TensorFlow/myModel/'
+
+
     global DBPaths
     class DBPaths(object):
+        trainingDBSmall = "D:/Skola/UK/DiplomovaPraca/PokracovaniePoPredchodcovi/zdrojové kódy/NeuroCarRecognition/configuration/LoadDbSmall.xml"
         trainingDB = "D:/Skola/UK/DiplomovaPraca/PokracovaniePoPredchodcovi/zdrojové kódy/NeuroCarRecognition/configuration/LoadDb.xml"
+        testingDB = "D:/Skola/UK/DiplomovaPraca/PokracovaniePoPredchodcovi/zdrojové kódy/NeuroCarRecognition/configuration/LoadDbTesting.xml"
+        testingDB360 = "D:/Skola/UK/DiplomovaPraca/PokracovaniePoPredchodcovi/zdrojové kódy/NeuroCarRecognition/configuration/LoadDbTesting360.xml"
+        testingDB540 = "D:/Skola/UK/DiplomovaPraca/PokracovaniePoPredchodcovi/zdrojové kódy/NeuroCarRecognition/configuration/LoadDbTesting540.xml"
+        testingDB576 = "D:/Skola/UK/DiplomovaPraca/PokracovaniePoPredchodcovi/zdrojové kódy/NeuroCarRecognition/configuration/LoadDbTesting576.xml"
+        testingDB720 = "D:/Skola/UK/DiplomovaPraca/PokracovaniePoPredchodcovi/zdrojové kódy/NeuroCarRecognition/configuration/LoadDbTesting720.xml"
+        testingDB900 = "D:/Skola/UK/DiplomovaPraca/PokracovaniePoPredchodcovi/zdrojové kódy/NeuroCarRecognition/configuration/LoadDbTesting900.xml"
 
     global DB_DIRECOTRY
     DB_DIRECOTRY = "D:/Skola/UK/DiplomovaPraca/TensorFlow/resnet/"

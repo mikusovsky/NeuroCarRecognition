@@ -2,18 +2,10 @@ import os
 from xml.dom import minidom
 from PIL import Image
 import numpy as np
+import gc
+import Utils as utils
 
 class CarModel:
-    _maker = None
-    _model = None
-    _generation = None
-    _from = None
-    _to = None
-    _imagePath = None
-    _imagesPath = None
-    _indexFrom = 0
-    _indexFrom = 0
-    _kMeanLabel = None
 
     def __init__(self, maker=None, model=None, generation=None, dateFrom=None, dateTo=None, imagePath=None):
         self._maker = maker
@@ -52,15 +44,31 @@ class CarModel:
     def imagesPath(self):
         return self._imagesPath
 
-    def getImages(self):
+    def getImages(self, shape=(299, 299)):
+        #self.createNumpyDb()
         images = []
+        #images = utils.readAllImagesFromPath(self._imagePath + "/", shape)
+        #return images
+
+        exceptionCount = 0
         for imgPath in self._imagesPath:
-            img = Image.open(imgPath).resize((299, 299))
-            img = np.array(img)
-            img = 2 * (img / 255.0) - 1.0
-            img = img.reshape(-1, 299, 299, 3)
-            images.append(img)
-        return images
+            img = Image.open(imgPath).resize(shape)
+            np_img = np.array(img)
+            #np_img = 2 * (np_img / 255.0) - 1.0
+            try:
+                np_img = np_img.reshape(-1, shape[0], shape[1], 3)
+                np_img1d = np_img#.flatten()
+                images.append(np_img1d)
+            except: # for png imgs dont work reshape
+                exceptionCount = exceptionCount + 1
+                print(imgPath)
+            del img
+            gc.collect()
+        ret = None
+        if len(images) != 0:
+            ret = np.concatenate(images)
+        return ret
+
 
     def indexFrom(self, value=None):
         if value is None:
@@ -76,6 +84,28 @@ class CarModel:
         if value is None:
             return self._kMeanLabel
         self._kMeanLabel = value
+
+    def createNumpyDb(self):
+        exceptionCount = 0
+        shape = (224, 224)
+        for imgPath in self._imagesPath:
+            newPath = imgPath.replace("NeuroTrainingDb", "NeuroTrainingDbNumpy")
+            newDir = os.path.dirname(newPath)
+            img = Image.open(imgPath).resize(shape)
+            np_img = np.array(img)
+            np_img = 2 * (np_img / 255.0) - 1.0
+            try:
+                np_img = np_img.reshape(-1, shape[0], shape[1], 3)
+                if not os.path.exists(newDir):
+                    os.makedirs(newDir)
+                np_img.tofile(newPath, sep="", format="%f")
+            except:  # for png imgs dont work reshape
+                exceptionCount = exceptionCount + 1
+                print(imgPath)
+            del img
+            gc.collect()
+        print(exceptionCount)
+
 
 def get_all_models(configFile):
     allModels = []
